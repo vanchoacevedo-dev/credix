@@ -42,48 +42,51 @@
     </div>
   </nav>
 
-  <main class="pt-36 flex flex-col gap-6 px-4 md:px-8">
+  <main class="pt-24 md:pt-36 flex flex-col gap-6 px-4 md:px-8 max-w-7xl mx-auto">
     <!-- INICIO :: SESION INICIO -->
     <section id="inicio" class="rounded-2xl scroll-mt-32">
-      <div class="flex items-stretch gap-4 pb-4">
-        <div class="flex-1 mx-4">
-          <h1 class="rounded-2xl text-gray-400 font-semibold bg-gray-200 w-72 pl-3">HECHO PARA GENTE COMO TU 💚</h1>
+      <div class="flex flex-col md:flex-row items-center gap-8 pb-8">
+        <div class="flex-1 w-full order-2 md:order-1">
+          <div class="inline-block rounded-2xl text-gray-400 font-semibold bg-gray-200 px-4 py-1 text-sm mb-4">HECHO PARA GENTE COMO TÚ 💚</div>
 
-          <h1 class="text-4xl font-bold leading-normal bg-linear-to-r from-blue-700 via-cyan-500 to-cyan-500 bg-clip-text text-transparent">La forma más fácil de administrar natilleras, vacas y préstamos entre personas de confianza.</h1>
-          <h1 class="mt-2 text-lg font-semibold text-gray-500">Crea natilleras, vacas, fondos para paseos y préstamos entre amigos o familiares desde un solo lugar.</h1>
+          <h1 class="text-3xl md:text-4xl font-bold leading-tight bg-linear-to-r from-blue-700 via-cyan-500 to-cyan-500 bg-clip-text text-transparent">La forma más fácil de administrar natilleras, vacas y préstamos entre personas de confianza.</h1>
 
-          <div class="flex gap-4 items-stretch mt-4">
-            <button class="btn bg-orange-400 text-white text-md rounded-xl">Registate gratis ➜</button>
-            <button class="btn border-gray-300 border-2 rounded-xl text-md">Conocer mas</button>
+          <p class="mt-4 text-base md:text-lg font-semibold text-gray-500">Crea natilleras, vacas, fondos para paseos y préstamos entre amigos o familiares desde un solo lugar.</p>
+
+          <div class="flex flex-wrap gap-4 mt-6">
+            <button class="btn bg-orange-400 hover:bg-orange-500 border-none text-white text-md rounded-xl px-6">Regístrate gratis ➜</button>
+            <button class="btn btn-outline border-gray-300 border-2 rounded-xl text-md px-6">Conocer más</button>
           </div>
 
-          <div class="flex gap-1 pb-4 mt-8 items-center">
-            <div class="flex gap-2 items-center pr-4">
-              <div class="bg-green-200 rounded-xl p-1">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" class="size-7 stroke-green-600">
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10 pt-4 border-t border-gray-100">
+            <div class="flex gap-3 items-center">
+              <div class="bg-green-200 rounded-xl p-2 shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" class="size-6 stroke-green-600">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z" />
                 </svg>
               </div>
               <div>
-                <h1 class="text-xs font-bold">Seguro y confiable</h1>
-                <h1 class="text-xs font-semibold text-gray-400">Tu informacion protegida</h1>
+                <h2 class="text-xs font-bold text-gray-800">Seguro y confiable</h2>
+                <p class="text-xs font-semibold text-gray-400">Tu información protegida</p>
               </div>
             </div>
-            <div class="ml-4 flex gap-2 items-center pr-4">
-              <div class="bg-blue-100 rounded-xl p-1">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-bolt stroke-blue-600 w-7 h-7">
+
+            <div class="flex gap-3 items-center">
+              <div class="bg-blue-100 rounded-xl p-2 shrink-0">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stroke-blue-600 w-6 h-6">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
                 </svg>
               </div>
               <div>
-                <h1 class="text-xs font-bold">Facil de usar</h1>
-                <h1 class="text-xs font-semibold text-gray-400">Crea y administra grupos en minutos.</h1>
+                <h2 class="text-xs font-bold text-gray-800">Fácil de usar</h2>
+                <p class="text-xs font-semibold text-gray-400">Grupos en minutos.</p>
               </div>
             </div>
-            <div class="ml-3 border-gray-300 flex gap-2 items-center">
-              <div class="bg-purple-200 rounded-xl p-1">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-users-group stroke-purple-800 w-7 h-7">
+
+            <div class="flex gap-3 items-center">
+              <div class="bg-purple-200 rounded-xl p-2 shrink-0">
+                <svg xmlns="http://www.w3.org/2000/xl" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stroke-purple-800 w-6 h-6">
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M10 13a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
                   <path d="M8 21v-1a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v1" />
@@ -94,376 +97,311 @@
                 </svg>
               </div>
               <div>
-                <h1 class="text-xs font-bold">Hecho para grupos</h1>
-                <h1 class="text-xs font-semibold text-gray-400">Ideal para amigos, familias y comunidades.</h1>
+                <h2 class="text-xs font-bold text-gray-800">Hecho para grupos</h2>
+                <p class="text-xs font-semibold text-gray-400">Amigos y familias.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="flex-1 flex justify-center">
-          <img src="landingPage/imagendas.png" alt="logo" class="max-w-3xl" />
+
+        <div class="flex-1 w-full order-1 md:order-2 flex justify-center">
+          <img src="landingPage/imagendas.png" alt="Ilustración Credix" class="w-full max-w-md md:max-w-2xl h-auto object-contain" />
         </div>
       </div>
     </section>
     <!-- FIN :: SESION INICIO -->
 
     <!-- INICIO :: BENEFICIOS -->
-    <section id="beneficios" class="rounded-2xl bg-gray-50 shadow-xl h-130 scroll-mt-32">
-      <h1 class="text-center font-semibold text-blue-600 text-xl mt-2">BENEFICIOS</h1>
-      <h1 class="text-center font-bold text-5xl text-blue-950 mt-2">¿Por que elegir <span class="text-blue-500">Credix?</span></h1>
-      <p class="text-xl text-gray-500 text-center mt-2">Todo lo que necesitas para organizar el dinero de tu grupo de forma fácil y transparente.</p>
+    <section id="beneficios" class="rounded-2xl bg-gray-50 shadow-xl h-auto py-12 md:py-20 px-4 md:px-8 scroll-mt-32 max-w-7xl mx-auto">
+      <h2 class="text-center font-semibold text-blue-600 text-sm md:text-base tracking-wider uppercase">BENEFICIOS</h2>
+      <h1 class="text-center font-bold text-3xl md:text-5xl text-blue-950 mt-2">¿Por qué elegir <span class="text-blue-500">Credix?</span></h1>
+      <p class="text-base md:text-xl text-gray-500 text-center mt-3 max-w-3xl mx-auto">Todo lo que necesitas para organizar el dinero de tu grupo de forma fácil y transparente.</p>
 
-      <div class="flex mt-6 gap-4 w-full p-4">
-        <!-- INICIO :: CARD NATILLERA -->
-        <div class="flex-1 border-2 border-gray-200 bg-white rounded-2xl flex flex-col justify-start items-center gap-4 p-2">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 w-full">
+        <div class="border-2 border-gray-200 bg-white rounded-2xl flex flex-col justify-start items-center gap-3 p-6 shadow-xs hover:shadow-md transition-shadow">
           <img src="landingPage/regalo.png" alt="regalo" class="w-16 h-16 object-contain" />
-          <h1 class="text-xl text-center font-bold">Natilleras organizadas</h1>
-          <p class="text-lg text-gray-400 font-semibold text-center">Crea y administra natilleras sin llevar cuentas en cuadernos o grupos de WhatsApp.</p>
+          <h3 class="text-xl text-center font-bold text-gray-800">Natilleras organizadas</h3>
+          <p class="text-sm md:text-base text-gray-400 font-semibold text-center">Crea y administra natilleras sin llevar cuentas en cuadernos o grupos de WhatsApp.</p>
         </div>
-        <!-- FIN :: CARD NATILLERA -->
-
-        <!-- INICIO :: CARD CUOTAS -->
-        <div class="flex-1 border-2 rounded-2xl bg-white border-gray-200 flex flex-col justify-center items-center gap-4 p-2">
+        <div class="border-2 border-gray-200 bg-white rounded-2xl flex flex-col justify-start items-center gap-3 p-6 shadow-xs hover:shadow-md transition-shadow">
           <img src="landingPage/diapago.png" alt="dia" class="w-16 h-16 object-contain" />
-          <h1 class="text-xl font-bold text-center">Cuotas comodas</h1>
-          <p class="text-lg text-gray-400 font-semibold text-center">Registra fácilmente los aportes de cada participante y mantén todo actualizado.</p>
+          <h3 class="text-xl font-bold text-center text-gray-800">Cuotas cómodas</h3>
+          <p class="text-sm md:text-base text-gray-400 font-semibold text-center">Registra fácilmente los aportes de cada participante y mantén todo actualizado.</p>
         </div>
-        <!-- FIN :: CARD CUOTAS -->
-
-        <!-- INICIO :: CARD AHORROS -->
-        <div class="flex-1 border-2 rounded-2xl bg-white border-gray-200 flex flex-col justify-center items-center gap-4 p-2">
+        <div class="border-2 border-gray-200 bg-white rounded-2xl flex flex-col justify-start items-center gap-3 p-6 shadow-xs hover:shadow-md transition-shadow">
           <img src="landingPage/playa.png" alt="playa" class="h-16 w-16 object-contain" />
-          <h1 class="text-xl font-bold text-center">Ahorra para tus metas</h1>
-          <p class="text-lg text-gray-400 font-semibold text-center">Paseos, diciembre, estudios o cualquier proyecto que quieras alcanzar.</p>
+          <h3 class="text-xl font-bold text-center text-gray-800">Ahorra para tus metas</h3>
+          <p class="text-sm md:text-base text-gray-400 font-semibold text-center">Paseos, diciembre, estudios o cualquier proyecto que quieras alcanzar.</p>
         </div>
-        <!-- FIN :: CARD AHORROS -->
-        <!-- INICIO :: CARD GRUPOS -->
-        <div class="flex-1 border-2 bg-white border-gray-200 rounded-2xl flex flex-col justify-center items-center gap-4 p-2">
-          <img src="landingPage/equipo.png" alt="regalo" class="w-16 h-16 object-contain" />
-          <h1 class="text-xl font-bold">Ideal para grupos</h1>
-          <p class="text-lg text-gray-400 font-semibold text-center">Perfecto para familias, vecinos, compañeros de trabajo o grupos de amigos.</p>
+        <div class="border-2 border-gray-200 bg-white rounded-2xl flex flex-col justify-start items-center gap-3 p-6 shadow-xs hover:shadow-md transition-shadow">
+          <img src="landingPage/equipo.png" alt="equipo" class="w-16 h-16 object-contain" />
+          <h3 class="text-xl font-bold text-center text-gray-800">Ideal para grupos</h3>
+          <p class="text-sm md:text-base text-gray-400 font-semibold text-center">Perfecto para familias, vecinos, compañeros de trabajo o grupos de amigos.</p>
         </div>
-        <!-- FIN :: CARD GRUPOS -->
-
-        <!-- INICIO :: CARD CONTROL -->
-        <div class="flex-1 border-2 rounded-2xl bg-white border-gray-200 flex flex-col justify-center items-center gap-4 p-2">
-          <img src="landingPage/portapapeles.png" alt="dia" class="w-16 h16 object-contain" />
-          <h1 class="text-xl font-bold text-center">Todo bajo control</h1>
-          <p class="text-lg text-gray-400 font-semibold text-center">Consulta aportes, movimientos y saldos cuando lo necesites.</p>
+        <div class="border-2 border-gray-200 bg-white rounded-2xl flex flex-col justify-start items-center gap-3 p-6 shadow-xs hover:shadow-md transition-shadow">
+          <img src="landingPage/portapapeles.png" alt="control" class="w-16 h-16 object-contain" />
+          <h3 class="text-xl font-bold text-center text-gray-800">Todo bajo control</h3>
+          <p class="text-sm md:text-base text-gray-400 font-semibold text-center">Consulta aportes, movimientos y saldos cuando lo necesites.</p>
         </div>
-        <!-- FIN :: CARD CONTROL -->
-
-        <!-- INICIO :: CARD TRANSPARENCIA -->
-        <div class="flex-1 border-2 rounded-2xl bg-white border-gray-200 flex flex-col justify-center items-center gap-4 p-2">
-          <img src="landingPage/escudo.png" alt="playa" class="h-16 w-16 object-contain" />
-          <h1 class="text-xl font-bold text-center">Transparencia para todos</h1>
-          <p class="text-lg text-gray-400 font-semibold text-center">Cada participante puede conocer claramente el estado de los fondos.</p>
+        <div class="border-2 border-gray-200 bg-white rounded-2xl flex flex-col justify-start items-center gap-3 p-6 shadow-xs hover:shadow-md transition-shadow">
+          <img src="landingPage/escudo.png" alt="escudo" class="h-16 w-16 object-contain" />
+          <h3 class="text-xl font-bold text-center text-gray-800">Transparencia para todos</h3>
+          <p class="text-sm md:text-base text-gray-400 font-semibold text-center">Cada participante puede conocer claramente el estado de los fondos.</p>
         </div>
-        <!-- FIN :: CARD TRANSPARENCIA -->
       </div>
     </section>
     <!-- FIN :: BENEFICIOS -->
 
     <!-- INICIO :: SESION COMO FUNCIONA -->
-    <section id="como-funciona" class="h-260 scroll-mt-32">
-      <h1 class="text-4xl font-bold text-center mt-4">¿Como funciona?</h1>
-      <!-- INICIO :: CARD COMO FUNCIONA -->
-      <div class="flex mt-2 gap-4">
-        <!-- INICIO :: CARD CREA TU GRUPO -->
-        <div class="flex-1 flex flex-col items-center justify-center">
-          <div class="h-36 w-36 border-2 rounded-full border-blue-400 flex items-center justify-center bg-white mt-4 p-4">
-            <img src="landingPage/cola.png" alt="playa" class="h-full w-full object-contain" />
+    <section id="como-funciona" class="h-auto py-12 md:py-24 px-4 md:px-8 max-w-7xl mx-auto scroll-mt-32">
+      <h1 class="text-3xl md:text-4xl font-bold text-center text-blue-950 mb-10">¿Cómo funciona?</h1>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+        <div class="flex flex-col items-center text-center p-4">
+          <div class="h-32 w-32 md:h-36 md:w-36 border-2 rounded-full border-blue-400 flex items-center justify-center bg-white p-4 shadow-sm">
+            <img src="landingPage/cola.png" alt="Crea tu grupo" class="h-full w-full object-contain" />
           </div>
-          <div class="flex items-center gap-3 mt-2">
-            <div class="bg-blue-400 rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-number-1-small stroke-white h-12 w-12">
+          <div class="flex items-center gap-3 mt-4">
+            <div class="bg-blue-400 rounded-full shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="stroke-white h-10 w-10 md:h-12 md:w-12">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M11 8h1v8" />
               </svg>
             </div>
-            <h1 class="font-bold text-4xl">Crea tu grupo</h1>
+            <h2 class="font-bold text-2xl md:text-3xl text-gray-800">Crea tu grupo</h2>
           </div>
-          <p class="text-lg font-semibold text-gray-500 text-center mt-2">Crea una natillera, vaca o fondo de ahorro en pocos pasos.</p>
+          <p class="text-sm md:text-base font-semibold text-gray-500 mt-2 max-w-xs">Crea una natillera, vaca o fondo de ahorro en pocos pasos.</p>
         </div>
-        <!-- FIN :: CARD CREA TU GRUPO -->
-
-        <!-- INICIO :: CARD REGISTRA APORTES -->
-        <div class="flex-1 flex flex-col items-center justify-center">
-          <div class="h-36 w-36 border-2 rounded-full border-amber-400 flex items-center justify-center bg-white mt-4 p-4">
-            <img src="landingPage/pago.png" alt="playa" class="h-full w-full object-contain" />
+        <div class="flex flex-col items-center text-center p-4">
+          <div class="h-32 w-32 md:h-36 md:w-36 border-2 rounded-full border-amber-400 flex items-center justify-center bg-white p-4 shadow-sm">
+            <img src="landingPage/pago.png" alt="Registra aportes" class="h-full w-full object-contain" />
           </div>
-          <div class="flex items-center gap-3 mt-2">
-            <div class="bg-amber-400 rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-number-2-small w-12 h-12 stroke-white">
+          <div class="flex items-center gap-3 mt-4">
+            <div class="bg-amber-400 rounded-full shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-10 h-10 md:w-12 md:h-12 stroke-white">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M10 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3" />
               </svg>
             </div>
-            <h1 class="font-bold text-4xl">Registra aportes</h1>
+            <h2 class="font-bold text-2xl md:text-3xl text-gray-800">Registra aportes</h2>
           </div>
-          <p class="text-lg font-semibold text-gray-500 text-center mt-2">Lleva el control de pagos diarios, semanales o mensuales.</p>
+          <p class="text-sm md:text-base font-semibold text-gray-500 mt-2 max-w-xs">Lleva el control de pagos diarios, semanales o mensuales.</p>
         </div>
-        <!-- FIN :: CARD REGISTRA APORTES -->
-
-        <!-- INICIO :: CARD CUMPLE TUS METAS -->
-        <div class="flex-1 flex flex-col items-center justify-center">
-          <div class="h-36 w-36 border-2 rounded-full border-green-400 flex items-center justify-center bg-white mt-4 p-4">
-            <img src="landingPage/meta.png" alt="playa" class="h-full w-full object-contain" />
+        <div class="flex flex-col items-center text-center p-4">
+          <div class="h-32 w-32 md:h-36 md:w-36 border-2 rounded-full border-green-400 flex items-center justify-center bg-white p-4 shadow-sm">
+            <img src="landingPage/meta.png" alt="Cumple tu meta" class="h-full w-full object-contain" />
           </div>
-          <div class="flex items-center gap-3 mt-2">
-            <div class="bg-green-400 rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-number-3-small h-12 w-12 stroke-white">
+          <div class="flex items-center gap-3 mt-4">
+            <div class="bg-green-400 rounded-full shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-10 w-10 md:h-12 md:w-12 stroke-white">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M10 8h2.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-1.5h1.5a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1 -1.5 1.5h-2.5" />
               </svg>
             </div>
-            <h1 class="font-bold text-4xl">Cumple tu meta</h1>
+            <h2 class="font-bold text-2xl md:text-3xl text-gray-800">Cumple tu meta</h2>
           </div>
-          <p class="text-lg font-semibold text-gray-500 text-center mt-2">Haz seguimiento al progreso y alcanza tus objetivos.</p>
-        </div>
-        <!-- FIN :: CARD CUMPLES TUS METAS -->
-      </div>
-      <!-- FIN :: CARD COMO FUNCIONA -->
-
-      <!-- INICIO :: CARDS QUE SE PUEDE HACER -->
-      <div class="bg-gray-50 border-4 border-gray-100 shadow-lg rounded-xl mt-12 w-full">
-        <h1 class="text-4xl font-bold text-center mt-6">Casos de uso</h1>
-        <div class="flex gap-2 mt-2 p-4">
-          <!-- INICIO :: CARD NATILLERAS -->
-          <div class="flex flex-1 bg-green-100 rounded-lg gap-2 mt-4">
-            <img src="landingPage/natillera.png" alt="natillera" class="w-36 h-36 object-contain p-4" />
-            <div>
-              <h1 class="font-bold text-green-700 text-xl mt-2">Natilleras</h1>
-              <p class="text-md text-gray-400 font-semibold text-start mt-2">Ahorra durante el año y recibe tu dinero cuando más lo necesites.</p>
-            </div>
-          </div>
-          <!-- FIN :: CARD NATILLERAS -->
-
-          <!-- INICIO :: CARD FONDOS DE AHORRO -->
-          <div class="flex flex-1 bg-purple-200 rounded-lg gap-2 mt-4">
-            <img src="landingPage/ahorro.png" alt="natillera" class="w-36 h-36 object-contain p-4" />
-            <div>
-              <h1 class="font-bold text-purple-700 text-lg mt-2">Fondos de ahorro</h1>
-              <p class="text-md text-gray-400 font-semibold text-start mt-2">Crea metas individuales o grupales y hazlas realidad.</p>
-            </div>
-          </div>
-          <!-- FIN :: CARD FONDOS DE AHORRO  -->
-
-          <!-- INICIO :: CARD PASEOS Y EVENTOS -->
-          <div class="flex flex-1 bg-blue-50 rounded-lg gap-2 mt-4">
-            <img src="landingPage/playa1.png" alt="natillera" class="w-36 h-36 object-contain p-4" />
-            <div>
-              <h1 class="font-bold text-blue-700 text-lg mt-2">Paseos y eventos</h1>
-              <p class="text-md text-gray-400 font-semibold text-start mt-2">Organiza viajes, celebraciones y actividades sin perder el control del dinero.</p>
-            </div>
-          </div>
-          <!-- FIN :: CARD PASEOS Y EVENTOS -->
-
-          <!-- INICIO :: CARD PRESTAMO ENTRE PERSONAS -->
-          <div class="flex flex-1 bg-yellow-100 rounded-lg gap-2 mt-4">
-            <img src="landingPage/manos.png" alt="natillera" class="w-36 h-36 object-contain p-4" />
-            <div>
-              <h1 class="font-bold text-amber-700 text-lg mt-2">Préstamos entre personas</h1>
-              <p class="text-md text-gray-400 font-semibold text-start mt-2">Gestiona préstamos de forma organizada y transparente.</p>
-            </div>
-          </div>
-          <!-- FIN :: CARD PRESTAMO ENTRE PERSONAS -->
+          <p class="text-sm md:text-base font-semibold text-gray-500 mt-2 max-w-xs">Haz seguimiento al progreso y alcanza tus objetivos.</p>
         </div>
       </div>
-      <!-- FIN :: CARDS QUE SE PUEDE HACER -->
+      <div class="bg-gray-50 border border-gray-200 shadow-md rounded-2xl mt-16 w-full p-6 md:p-8">
+        <h1 class="text-3xl font-bold text-center text-blue-950 mb-6">Casos de uso</h1>
 
-      <!-- INICIO :: CARDS PARA QUIEN ES CREDIX -->
-      <div class="bg-gray-50 border-4 border-gray-100 shadow-lg rounded-xl mt-12 w-full">
-        <h1 class="text-4xl font-bold text-center mt-6">¿Quiénes usan Credix?</h1>
-        <div class="flex gap-2 mt-2 p-4">
-          <!-- INICIO :: CARD NATILLERAS -->
-          <div class="flex flex-1 rounded-lg gap-2 mt-4 border-4 border-gray-200">
-            <img src="landingPage/familia.png" alt="natillera" class="w-36 h-36 object-contain p-4" />
-            <div>
-              <h1 class="font-bold text-green-700 text-xl mt-2">Familias</h1>
-              <p class="text-md text-gray-400 font-semibold text-start mt-2">Organicen ahorros y metas en común.</p>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div class="flex flex-col sm:flex-row bg-green-100 rounded-xl gap-4 p-4 items-center sm:items-start">
+            <img src="landingPage/natillera.png" alt="Natilleras" class="w-24 h-24 sm:w-28 sm:h-28 object-contain shrink-0" />
+            <div class="text-center sm:text-left">
+              <h2 class="font-bold text-green-700 text-xl">Natilleras</h2>
+              <p class="text-sm text-gray-500 font-semibold mt-2">Ahorra durante el año y recibe tu dinero cuando más lo necesites.</p>
             </div>
           </div>
-          <!-- FIN :: CARD NATILLERAS -->
 
-          <!-- INICIO :: CARD FONDOS DE AHORRO -->
-          <div class="flex flex-1 border-4 border-gray-200 rounded-lg gap-2 mt-4">
-            <img src="landingPage/mensajero.png" alt="natillera" class="w-36 h-36 object-contain p-4" />
-            <div>
-              <h1 class="font-bold text-purple-700 text-lg mt-2">Trabajadores independientes</h1>
-              <p class="text-md text-gray-400 font-semibold text-start mt-2">Controlen pagos y fondos de manera sencilla.</p>
+          <div class="flex flex-col sm:flex-row bg-purple-100 rounded-xl gap-4 p-4 items-center sm:items-start">
+            <img src="landingPage/ahorro.png" alt="Fondos" class="w-24 h-24 sm:w-28 sm:h-28 object-contain shrink-0" />
+            <div class="text-center sm:text-left">
+              <h2 class="font-bold text-purple-700 text-xl">Fondos de ahorro</h2>
+              <p class="text-sm text-gray-500 font-semibold mt-2">Crea metas individuales o grupales y hazlas realidad.</p>
             </div>
           </div>
-          <!-- FIN :: CARD FONDOS DE AHORRO  -->
 
-          <!-- INICIO :: CARD PASEOS Y EVENTOS -->
-          <div class="flex flex-1 border-4 border-gray-200 rounded-lg gap-2 mt-4">
-            <img src="landingPage/residencia.png" alt="natillera" class="w-36 h-36 object-contain p-4" />
-            <div>
-              <h1 class="font-bold text-blue-700 text-lg mt-2">Comunidades</h1>
-              <p class="text-md text-gray-400 font-semibold text-start mt-2">Administra natilleras y fondos grupales.</p>
+          <div class="flex flex-col sm:flex-row bg-blue-50 rounded-xl gap-4 p-4 items-center sm:items-start">
+            <img src="landingPage/playa1.png" alt="Paseos" class="w-24 h-24 sm:w-28 sm:h-28 object-contain shrink-0" />
+            <div class="text-center sm:text-left">
+              <h2 class="font-bold text-blue-700 text-xl">Paseos y eventos</h2>
+              <p class="text-sm text-gray-500 font-semibold mt-2">Organiza viajes, celebraciones y actividades sin perder el control del dinero.</p>
             </div>
           </div>
-          <!-- FIN :: CARD PASEOS Y EVENTOS -->
 
-          <!-- INICIO :: CARD PRESTAMO ENTRE PERSONAS -->
-          <div class="flex flex-1 border-4 border-gray-200 rounded-lg gap-2 mt-4">
-            <img src="landingPage/unido.png" alt="natillera" class="w-36 h-36 object-contain p-4" />
-            <div>
-              <h1 class="font-bold text-amber-700 text-lg mt-2">Grupos de amigos</h1>
-              <p class="text-md text-gray-400 font-semibold text-start mt-2">Organicen paseos, celebraciones y proyectos compartidos.</p>
+          <div class="flex flex-col sm:flex-row bg-yellow-50 rounded-xl gap-4 p-4 items-center sm:items-start">
+            <img src="landingPage/manos.png" alt="Préstamos" class="w-24 h-24 sm:w-28 sm:h-28 object-contain shrink-0" />
+            <div class="text-center sm:text-left">
+              <h2 class="font-bold text-amber-700 text-xl">Préstamos entre personas</h2>
+              <p class="text-sm text-gray-500 font-semibold mt-2">Gestiona préstamos de forma organizada y transparente.</p>
             </div>
           </div>
-          <!-- FIN :: CARD PRESTAMO ENTRE PERSONAS -->
         </div>
       </div>
-      <!-- FIN :: CARDS PARA QUIEN ES CREDIX  -->
+      <div class="bg-white border border-gray-200 shadow-md rounded-2xl mt-16 w-full p-6 md:p-8">
+        <h1 class="text-3xl font-bold text-center text-blue-950 mb-6">¿Quiénes usan Credix?</h1>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="border border-gray-200 rounded-xl flex flex-col items-center text-center p-5 bg-gray-50/50 hover:bg-white transition-colors">
+            <img src="landingPage/familia.png" alt="Familias" class="w-24 h-24 object-contain mb-4" />
+            <h2 class="font-bold text-green-700 text-lg">Familias</h2>
+            <p class="text-xs md:text-sm text-gray-400 font-semibold mt-2">Organicen ahorros y metas en común.</p>
+          </div>
+
+          <div class="border border-gray-200 rounded-xl flex flex-col items-center text-center p-5 bg-gray-50/50 hover:bg-white transition-colors">
+            <img src="landingPage/mensajero.png" alt="Trabajadores" class="w-24 h-24 object-contain mb-4" />
+            <h2 class="font-bold text-purple-700 text-lg">Independientes</h2>
+            <p class="text-xs md:text-sm text-gray-400 font-semibold mt-2">Controlen pagos y fondos de manera sencilla.</p>
+          </div>
+
+          <div class="border border-gray-200 rounded-xl flex flex-col items-center text-center p-5 bg-gray-50/50 hover:bg-white transition-colors">
+            <img src="landingPage/residencia.png" alt="Comunidades" class="w-24 h-24 object-contain mb-4" />
+            <h2 class="font-bold text-blue-700 text-lg">Comunidades</h2>
+            <p class="text-xs md:text-sm text-gray-400 font-semibold mt-2">Administra natilleras y fondos grupales.</p>
+          </div>
+
+          <div class="border border-gray-200 rounded-xl flex flex-col items-center text-center p-5 bg-gray-50/50 hover:bg-white transition-colors">
+            <img src="landingPage/unido.png" alt="Amigos" class="w-24 h-24 object-contain mb-4" />
+            <h2 class="font-bold text-amber-700 text-lg">Grupos de amigos</h2>
+            <p class="text-xs md:text-sm text-gray-400 font-semibold mt-2">Organicen paseos, celebraciones y proyectos compartidos.</p>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- FIN :: SESION COMO FUNCIONA -->
 
     <!-- INICIO :: SESION QUE HACER -->
-    <section id="faq" class="h-auto scroll-mt-40">
-      <h1 class="font-bold text-center text-2xl mt-4">Preguntas frecuentes</h1>
-      <div class="flex mt-8 gap-4 mx-12">
-        <!-- INICIO :: PREGUNTAS IZQUIERDA -->
-        <div class="flex flex-1 flex-col gap-4">
-          <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
-            <input type="checkbox" />
-            <div class="collapse-title font-semibold">¿Necesito una cuenta bancaria?</div>
-            <div class="collapse-content text-sm">No. Puedes usar Credix para organizar y controlar los aportes de tus grupos.</div>
-          </div>
-          <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
-            <input type="checkbox" />
-            <div class="collapse-title font-semibold">¿Puedo crear varias natilleras?</div>
-            <div class="collapse-content text-sm">Sí. Puedes administrar varias natilleras, vacas o fondos al mismo tiempo.</div>
-          </div>
-          <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
-            <input type="checkbox" />
-            <div class="collapse-title font-semibold">¿Quién puede ver los movimientos?</div>
-            <div class="collapse-content text-sm">Solo las personas autorizadas dentro del grupo.</div>
-          </div>
-          <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
-            <input type="checkbox" />
-            <div class="collapse-title font-semibold">¿Puedo registrar pagos diarios?</div>
-            <div class="collapse-content text-sm">Sí. Credix permite registrar pagos diarios, semanales o mensuales.</div>
-          </div>
-        </div>
-        <!-- FIN :: PREGUNTAS IZQUIERDA -->
+    <section id="faq" class="h-auto py-12 md:py-20 px-4 md:px-8 max-w-6xl mx-auto scroll-mt-32">
+      <h1 class="font-bold text-center text-3xl md:text-4xl text-blue-950 mb-10">Preguntas frecuentes</h1>
 
-        <!-- INICIO :: PREGUNTAS DERECHA -->
-        <div class="flex flex-1 flex-col gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-start w-full">
+        <div class="flex flex-col gap-4">
           <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
             <input type="checkbox" />
-            <div class="collapse-title font-semibold">¿Sirve para paseos y eventos?</div>
-            <div class="collapse-content text-sm">Sí. Puedes recaudar cuotas y llevar el control de los aportes de cada participante.</div>
+            <div class="collapse-title font-semibold text-gray-800">¿Necesito una cuenta bancaria?</div>
+            <div class="collapse-content text-sm text-gray-600">No. Puedes usar Credix para organizar y controlar los aportes de tus grupos.</div>
           </div>
+
           <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
             <input type="checkbox" />
-            <div class="collapse-title font-semibold">¿Es seguro usar Credix?</div>
-            <div class="collapse-content text-sm">Sí. Toda la información se almacena de forma segura para que tengas control de tus grupos.</div>
+            <div class="collapse-title font-semibold text-gray-800">¿Puedo crear varias natilleras?</div>
+            <div class="collapse-content text-sm text-gray-600">Sí. Puedes administrar varias natilleras, vacas o fondos al mismo tiempo.</div>
           </div>
+
           <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
             <input type="checkbox" />
-            <div class="collapse-title font-semibold">¿Cómo empiezo a usar Credix?</div>
-            <div class="collapse-content text-sm">Solo debes crear tu cuenta y crear tu primer grupo.</div>
+            <div class="collapse-title font-semibold text-gray-800">¿Quién puede ver los movimientos?</div>
+            <div class="collapse-content text-sm text-gray-600">Solo las personas autorizadas dentro del grupo.</div>
           </div>
+
           <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
             <input type="checkbox" />
-            <div class="collapse-title font-semibold">¿Qué pasa si un participante no puede pagar?</div>
-            <div class="collapse-content text-sm">El administrador podrá registrar acuerdos o realizar seguimiento a los pagos pendientes.</div>
+            <div class="collapse-title font-semibold text-gray-800">¿Puedo registrar pagos diarios?</div>
+            <div class="collapse-content text-sm text-gray-600">Sí. Credix permite registrar pagos diarios, semanales o mensuales.</div>
           </div>
         </div>
-        <!-- FIN :: PREGUNTAS DERECHA -->
+        <div class="flex flex-col gap-4">
+          <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
+            <input type="checkbox" />
+            <div class="collapse-title font-semibold text-gray-800">¿Sirve para paseos y eventos?</div>
+            <div class="collapse-content text-sm text-gray-600">Sí. Puedes recaudar cuotas y llevar el control de los aportes de cada participante.</div>
+          </div>
+
+          <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
+            <input type="checkbox" />
+            <div class="collapse-title font-semibold text-gray-800">¿Es seguro usar Credix?</div>
+            <div class="collapse-content text-sm text-gray-600">Sí. Toda la información se almacena de forma segura para que tengas control de tus grupos.</div>
+          </div>
+
+          <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
+            <input type="checkbox" />
+            <div class="collapse-title font-semibold text-gray-800">¿Cómo empiezo a usar Credix?</div>
+            <div class="collapse-content text-sm text-gray-600">Solo debes crear tu cuenta y crear tu primer grupo.</div>
+          </div>
+
+          <div class="collapse collapse-arrow bg-gray-100 border-gray-200 border-2">
+            <input type="checkbox" />
+            <div class="collapse-title font-semibold text-gray-800">¿Qué pasa si un participante no puede pagar?</div>
+            <div class="collapse-content text-sm text-gray-600">El administrador podrá registrar acuerdos o realizar seguimiento a los pagos pendientes.</div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- FIN :: SESION QUE HACER -->
 
-    <section class="container mx-auto px-8 py-16">
-      <div class="bg-linear-to-r from-cyan-500 to-blue-600 rounded-3xl p-10 text-white text-center">
-        <h2 class="text-4xl font-bold mb-4">Empieza hoy a organizar tu dinero en grupo</h2>
+    <section class="max-w-7xl mx-auto px-4 md:px-8 py-12 md:py-16">
+      <div class="bg-linear-to-r from-cyan-500 to-blue-600 rounded-3xl p-6 md:p-12 text-white text-center shadow-xl">
+        <h2 class="text-2xl md:text-4xl font-bold mb-4 leading-tight">Empieza hoy a organizar tu dinero en grupo</h2>
 
-        <p class="text-lg mb-8 opacity-90">Crea tu primera natillera, vaca o fondo de ahorro gratis. Sin complicaciones. Sin enredos.</p>
+        <p class="text-sm md:text-lg mb-6 md:mb-8 opacity-90 max-w-2xl mx-auto">Crea tu primera natillera, vaca o fondo de ahorro gratis. Sin complicaciones. Sin enredos.</p>
 
-        <button class="bg-white text-blue-600 font-semibold px-8 py-4 rounded-xl hover:scale-105 transition">Crear mi grupo gratis</button>
+        <button class="w-full sm:w-auto bg-white text-blue-600 font-bold px-8 py-4 rounded-xl hover:scale-105 transition shadow-md">Crear mi grupo gratis</button>
       </div>
     </section>
-
     <!-- INICIO :: FOOTER LANDING PAGE -->
     <footer class="bg-slate-900 text-white">
-      <div class="container mx-4 px-8 py-12">
-        <div class="grid md:grid-cols-3 gap-10">
-          <!-- Logo -->
+      <div class="max-w-7xl mx-auto px-6 md:px-8 py-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+          <div class="flex flex-col gap-3">
+            <h2 class="font-bold text-2xl tracking-wider text-transparent bg-clip-text bg-linear-to-r from-cyan-400 to-blue-500">CREDIX</h2>
+            <p class="text-xs text-slate-400 font-medium leading-relaxed">La forma más fácil y transparente de administrar fondos compartidos con tu gente de confianza.</p>
+          </div>
 
-          <!-- Navegación -->
           <div>
-            <h3 class="font-semibold text-lg mb-4">Navegación</h3>
-            <ul class="space-y-3 text-slate-300">
+            <h3 class="font-semibold text-lg mb-4 text-white">Navegación</h3>
+            <ul class="space-y-3 text-sm text-slate-300">
               <li>
-                <a href="#inicio" class="hover:text-cyan-400 transition"> Inicio </a>
+                <a href="#inicio" class="hover:text-cyan-400 transition-colors"> Inicio </a>
               </li>
-
               <li>
-                <a href="#comofunciona" class="hover:text-cyan-400 transition"> Cómo funciona </a>
+                <a href="#como-funciona" class="hover:text-cyan-400 transition-colors"> Cómo funciona </a>
               </li>
-
               <li>
-                <a href="#beneficios" class="hover:text-cyan-400 transition"> Beneficios </a>
+                <a href="#beneficios" class="hover:text-cyan-400 transition-colors"> Beneficios </a>
               </li>
-
               <li>
-                <a href="#testimonios" class="hover:text-cyan-400 transition"> Testimonios </a>
-              </li>
-
-              <li>
-                <a href="#faq" class="hover:text-cyan-400 transition"> FAQ </a>
+                <a href="#faq" class="hover:text-cyan-400 transition-colors"> FAQ </a>
               </li>
             </ul>
           </div>
 
-          <!-- Soporte -->
           <div>
-            <h3 class="font-semibold text-lg mb-4">Soporte</h3>
-
-            <ul class="space-y-3 text-slate-300">
-              <li>Centro de ayuda</li>
-              <li>Contacto</li>
-              <li>Política de privacidad</li>
-              <li>Términos y condiciones</li>
+            <h3 class="font-semibold text-lg mb-4 text-white">Soporte</h3>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li class="hover:text-cyan-400 cursor-pointer transition-colors">Centro de ayuda</li>
+              <li class="hover:text-cyan-400 cursor-pointer transition-colors">Contacto</li>
+              <li class="hover:text-cyan-400 cursor-pointer transition-colors">Política de privacidad</li>
+              <li class="hover:text-cyan-400 cursor-pointer transition-colors">Términos y condiciones</li>
             </ul>
           </div>
 
-          <!-- Redes -->
           <div>
-            <h3 class="font-semibold text-lg mb-4">Síguenos</h3>
-
-            <div class="flex gap-4">
-              <a href="#" class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-cyan-600 transition">
-                <img src="landingPage/ins.png" />
+            <h3 class="font-semibold text-lg mb-4 text-white">Síguenos</h3>
+            <div class="flex gap-3">
+              <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-cyan-600 transition-colors">
+                <img src="landingPage/ins.png" alt="Instagram" class="w-5 h-5 object-contain" />
               </a>
-
-              <a href="#" class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-cyan-600 transition">
-                <img src="landingPage/wh.png" />
+              <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-green-600 transition-colors">
+                <img src="landingPage/wh.png" alt="WhatsApp" class="w-5 h-5 object-contain" />
               </a>
-
-              <a href="#" class="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-cyan-600 transition">
-                <img src="landingPage/facebook.png" />
+              <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-blue-600 transition-colors">
+                <img src="landingPage/facebook.png" alt="Facebook" class="w-5 h-5 object-contain" />
               </a>
             </div>
 
             <div class="mt-6">
-              <p class="text-slate-300">¿Necesitas ayuda?</p>
-
-              <p class="font-semibold text-cyan-400">contacto@credix.com</p>
+              <p class="text-xs text-slate-400">¿Necesitas ayuda?</p>
+              <p class="font-semibold text-sm text-cyan-400 mt-0.5">contacto@credix.com</p>
             </div>
           </div>
         </div>
 
-        <!-- Línea -->
-        <div class="border-t border-slate-700 mt-10 pt-6">
-          <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p class="text-slate-400 text-sm">© 2026 Credix. Todos los derechos reservados.</p>
-
-            <p class="text-slate-400 text-sm">Hecho para organizar el dinero entre personas de confianza ❤️</p>
+        <div class="border-t border-slate-800 mt-10 pt-6">
+          <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+            <p class="text-slate-400 text-xs">© 2026 Credix. Todos los derechos reservados.</p>
+            <p class="text-slate-400 text-xs flex items-center gap-1">Hecho para organizar el dinero entre personas de confianza ❤️</p>
           </div>
         </div>
       </div>
