@@ -1,0 +1,107 @@
+<div class="min-h-screen bg-white p-4 border border-gray-300 rounded-box">
+  <div class="mt-4 flex gap-4 items-center">
+    <div class="bg-green-100 text-green-600 p-3 rounded-full">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 12h18M3 17h18" />
+      </svg>
+    </div>
+    <h1 class="font-semibold text-4xl text-black">Usuarios</h1>
+  </div>
+
+  <div class="flex gap-4 items-center mt-8 justify-center">
+    <label class="input rounded-2xl">
+      <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none" stroke="currentColor">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.3-4.3"></path>
+        </g>
+      </svg>
+
+      <input type="search" placeholder="Buscar usuarios" />
+    </label>
+    <button class="btn bg-blue-500 text-xl rounded-2xl text-white" onclick="nuevoUsuario.showModal()">Nuevo usuario</button>
+  </div>
+
+  <div class="mt-8">
+    <div class="bg-gray-100 rounded-2xl shadow-2xl border border-gray-400">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Telefono</th>
+            <th>Producto</th>
+            <th>Total</th>
+            <th>Restante</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Ivan</th>
+            <th>32121252</th>
+            <th>Natillera 1</th>
+            <th>5252.252</th>
+            <th>21521</th>
+            <th class="w-1 whitespace-nowrap"><span class="badge badge-success"> Activo </span></th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="flex justify-center rounded-2xl mt-4">
+    <a class="link text-2xl text-blue-600"> Ver todos los usuarios </a>
+  </div>
+
+  <dialog id="nuevoUsuario" class="modal">
+    <div class="modal-box">
+      <h1 class="text-lg">Información personal</h1>
+      <div class="mt-4 flex items-center gap-2">
+        <label class="floating-label">
+          <span>Nombres</span>
+          <input type="text" placeholder="Nombres" class="input input-sm" />
+        </label>
+        <label class="floating-label">
+          <span>Primer Apellido</span>
+          <input type="text" placeholder="Primer Apellido" class="input input-sm" />
+        </label>
+        <label class="floating-label">
+          <span>Segundo Apellido</span>
+          <input type="text" placeholder="Segundo Apellido" class="input input-sm" />
+        </label>
+      </div>
+
+      <div class="mt-4 flex items-center gap-2">
+        <label class="floating-label">
+          <span>Tipo documento</span>
+          <input type="text" placeholder="Tipo Documento" class="input input-sm" />
+        </label>
+        <label class="floating-label">
+          <span>Numero documento</span>
+          <input type="tel" placeholder="Numero Documento" class="input input-sm" />
+        </label>
+        <label class="floating-label">
+          <span>Numero movil</span>
+          <input type="text" placeholder="Numero movil" class="input input-sm" />
+        </label>
+      </div>
+
+      <div class="mt-4 flex items-center gap-2">
+        <label class="floating-label">
+          <span>Numero movil (Opcional)</span>
+          <input type="tel" placeholder="Numero Movil" class="input input-sm" />
+        </label>
+        <label class="floating-label flex-1">
+          <span>Email</span>
+          <input type="tel" placeholder="Email" class="input input-sm" />
+        </label>
+      </div>
+
+      <div class="modal-action flex">
+        <form method="dialog">
+          <button class="btn btn-error">Cerrar</button>
+          <button class="btn btn-primary">Crear</button>
+        </form>
+      </div>
+    </div>
+  </dialog>
+</div>

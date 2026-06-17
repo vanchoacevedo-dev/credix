@@ -1,0 +1,82 @@
+<div class="min-h-screen bg-white p-4 border border-gray-300 rounded-box">
+  <div class="mt-4 flex gap-4 items-center">
+    <div class="bg-green-100 text-green-600 p-3 rounded-full">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18M3 12h18M3 17h18" />
+      </svg>
+    </div>
+    <h1 class="font-semibold text-4xl text-black">Productos</h1>
+  </div>
+
+  <div class="flex gap-4 items-center mt-8 justify-center">
+    <label class="input rounded-2xl">
+      <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none" stroke="currentColor">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.3-4.3"></path>
+        </g>
+      </svg>
+
+      <input type="search" placeholder="Buscar Producto" />
+    </label>
+    <button class="btn bg-blue-500 text-xl rounded-2xl text-white" onclick="nuevoProducto.showModal()">Nuevo Producto</button>
+  </div>
+
+  <div class="mt-4 bg-gray-100 rounded-2xl shadow-2xl border border-gray-400">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Tipo de producto</th>
+          <th>Descripcion</th>
+          <th>Fecha creacion</th>
+          <th>Estado</th>
+          <th>ver detalle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Natillera 2028</th>
+          <th>Natillera</th>
+          <th>Natillera para dicimebre</th>
+          <th>2024-02-02</th>
+          <th><span class="badge badge-primary"> activo </span></th>
+          <th><a routerLink="cartera-individual" class="link">Ver detalle</a></th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <dialog class="modal" id="nuevoProducto">
+    <div class="modal-box">
+      <h1 class="text-2xl font-semibold">Informacion del producto</h1>
+      <div class="flex gap-4 mt-4">
+        <label class="floating-label">
+          <span>Nombre producto</span>
+          <input type="text" placeholder="Nombre producto" class="input input-sm" />
+        </label>
+        <label class="floating-label">
+          <span>Tipo producto</span>
+          <input type="text" placeholder="Tipo producto" class="input input-sm" />
+        </label>
+
+        <label class="floating-label">
+          <span>Estado producto</span>
+          <input type="text" placeholder="Estado producto" class="input input-sm" />
+        </label>
+      </div>
+      <div class="flex gap-4 mt-4">
+        <label class="floating-label w-full">
+          <span>Descripcion producto</span>
+          <input type="text" placeholder="Descripcion producto" class="input input-sm" />
+        </label>
+      </div>
+      <div class="modal-action">
+        <form method="dialog" class="flex gap-2">
+          <button class="btn btn-error">Cerrar</button>
+          <button class="btn btn-primary">Crear</button>
+        </form>
+      </div>
+    </div>
+  </dialog>
+</div>
